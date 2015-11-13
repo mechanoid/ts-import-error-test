@@ -1,0 +1,17 @@
+{
+  "name": "ts-import-error-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "Falk Hoppe <falkhoppe81@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}

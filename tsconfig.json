@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "ES5",
+        "removeComments": false,
+        "outDir": "dist",
+        "noImplicitAny": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**",
+        "typings/*.d.ts"
+    ],
+    "files": [
+        "src/Car.ts",
+        "src/DieselEngine.ts",
+        "src/Engine.ts",
+        "src/GasolineEngine.ts",
+        "src/Vehicle.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
